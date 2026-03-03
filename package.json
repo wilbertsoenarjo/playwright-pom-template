@@ -1,0 +1,21 @@
+{
+  "name": "playwright-pom-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "api": "npx playwright test tests/api --ui",
+    "e2e": "npx playwright test tests/e2e --ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^24.10.1"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1"
+  }
+}
